@@ -5,7 +5,8 @@ import { products } from '../data/products';
 
 export const ShoppingPage = () => {
 
-    const { shoppingCart, onProductCountChange } = useShoppingCart()
+    const { shoppingCart, onProductCountChange } = useShoppingCart();
+    
     console.log( shoppingCart )
     return (
         <div>
